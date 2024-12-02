@@ -1,0 +1,46 @@
+name: dila_sayan
+description: "A new Flutter project for expert tracking with QR code scanning, calendar, and BLoC functionalities."
+publish_to: 'none' # Private package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  table_calendar: ^3.0.8
+  flutter_bloc: ^8.1.0
+  cupertino_icons: ^1.0.8
+  http: ^0.13.5
+  provider: ^6.0.5
+  shared_preferences: ^2.0.15
+  animate_do: ^3.1.2
+  mobile_scanner: ^6.0.1
+  qr_scanner_overlay: ^0.0.2
+  hidden_drawer_menu: ^3.0.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0 # Updated to a compatible version
+  syncfusion_flutter_calendar: ^27.1.57
+  lottie: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.9.2
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/signin_balls.png
+    - assets/images/logo.png
+    - assets/images/randevu.json
+    - assets/icon/app_icon.png
+
